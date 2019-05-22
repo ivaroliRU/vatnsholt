@@ -1470,3 +1470,7 @@ a {
   object-fit: cover;
 }
 /*Gallery End*/
+
+.text-primary{
+  color: #212529 !important;
+}
