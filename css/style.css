@@ -1396,6 +1396,7 @@ a {
       color: #5c7893;
       font-weight: 400; }
   .hotel-room > .thumbnail {
+    height: 253px !important;
     overflow: hidden;
     position: relative; }
     .hotel-room > .thumbnail img {
