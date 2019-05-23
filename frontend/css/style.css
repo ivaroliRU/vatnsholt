@@ -1592,3 +1592,9 @@ a {
   height: 350px;
   object-fit: cover;
 }
+
+.img-fluid{
+  width: 330px;
+  height: 253.615px;
+  object-fit: cover;
+}
