@@ -364,6 +364,7 @@
             <h2 class="mb-5">Book Now</h2>
           </div>
         </div>
+        <div id='bookWidget-11801-21258-0-1558604239'> </div>
       </div>
     </div>
 
@@ -541,5 +542,18 @@
                 }
             });
     </script>
+    <script src='https://media.xmlcal.com/widget/1.00/js/bookWidget.min.js'></script>
+    <script>
+      jQuery(document).ready(function() {
+        jQuery('#bookWidget-11801-21258-0-1558604239').bookWidget({
+          propid:21258,
+          dateSelection:1,
+          defaultNumNight:1,
+          formAction:'https://property.godo.is/booking.php',
+          widgetLang:'en',
+          widgetType:'BookingBox'
+        });
+      });
+      </script>
   </body>
 </html>
