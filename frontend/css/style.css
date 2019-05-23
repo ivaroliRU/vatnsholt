@@ -1561,3 +1561,9 @@ a {
 .party-gallery-body{
   padding: 0px;
 }
+
+.event-img{
+  width: 1000px !important;
+  height: 600px !important;
+  object-fit: cover;
+}
