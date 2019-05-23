@@ -1474,3 +1474,12 @@ a {
 .text-primary{
   color: #212529 !important;
 }
+
+#player{
+  width:100%;
+  height:350px;
+}
+
+.room-detail{
+  cursor: pointer;
+}
