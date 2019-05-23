@@ -53,13 +53,11 @@ jQuery(document).ready(function($) {
       
 		});
 		
-		$('.room-detail').on('click', function(e) {
+		$('.room-detail').on('click', function(e) {			
 			var details = $(this).data('details');
-			console.log($(this).data('details'));
-			console.log(details);
 			
 
-			$('#modal-room-title').text($(this).data('name'));
+			$('#modal-room-title').text(details.name);
 			$('#modal-room-details').text(details.details);
 			$('#modal-room-price').text(details.price);
 			//$('#modal-room-image').text();
