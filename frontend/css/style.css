@@ -1452,17 +1452,22 @@ a {
 }
 
 .cool-btn2{
-  border-color: #666666;
+  border-color: white;
   border-style: solid;
-  border-width: 1px;
-  background-color: #666666;
+  border-width: 3px;
   color: white;
 
-  padding-left: 20px !important;
-  padding-right: 20px !important;
+  padding-left: 23px !important;
+  padding-right: 23px !important;
   padding-top: 15px !important;
   padding-bottom: 15px !important;
   font-size: 26px;
+}
+
+.cool-btn2:hover{
+  border-color: #666;
+  background-color: #666;
+  color: white;
 }
 
 .cool-btn:hover{
@@ -1579,5 +1584,11 @@ a {
 .event-img{
   width: 1000px !important;
   height: 600px !important;
+  object-fit: cover;
+}
+
+.activity > img{
+  width: 100%;
+  height: 350px;
   object-fit: cover;
 }
