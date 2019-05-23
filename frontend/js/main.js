@@ -55,6 +55,7 @@ jQuery(document).ready(function($) {
 		
 		$('.room-detail').on('click', function(e) {			
 			var details = $(this).data('details');
+			console.log(details);
 			
 
 			$('#modal-room-title').text(details.name);
