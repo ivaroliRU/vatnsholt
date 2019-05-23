@@ -1,5 +1,5 @@
 # Vatnsholt
-[Hlekkur að síðu](http://github.com)
+[Hlekkur að síðu](https://vatnsholt.herokuapp.com/)
 
 ### Um verkefnið
 Verkefnið var að bæta síðu sem var í notkun hjá hótelinu Vatnsholt sem notaði áður wordpress, við í staðinn gerðum nýja síðu frá grunni án wordpress. Við notuðum NodeJS fyrir bakenda, en ekkert framework var notað í framenda (vanilla JS + Jquery), síðan var svo host-uð með Heroku.

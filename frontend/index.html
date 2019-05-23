@@ -122,7 +122,9 @@
           </div>
         </div>
         <div class="row">
-          <div class="room-detail col-md-6 col-lg-4 mb-5" data-details='{"name" : "Deluxe Room", "price": 26030, "details":"A luxorious room with a deluxe bath included in the price"}' id="0">
+          <div class="room-detail col-md-6 col-lg-4 mb-5" 
+          data-details='{"name" : "Deluxe Room", "price": 26030, "details":"We offer one deluxe room with king size bed. There is private bathroom with bath.",
+                        "images" : ["images/Delux-room-nr.-9-1024x426.jpg", "images/WC-Delux-room-nr.-9.jpg"]}' id="0">
             <div class="hotel-room text-center">
               <a class="d-block mb-0 thumbnail">
                 <img src="images/Delux-room-nr.-9-1024x426.jpg" alt="Image" class="img-fluid double-image">
@@ -134,7 +136,7 @@
               </div>
             </div>
           </div>
-          <div class="room-detail col-md-6 col-lg-4 mb-5" data-details='{"name" : "Double Room", "price": 19810, "details":"A beautyful double room with a shared bath included in the price"}' id="1">
+          <div class="room-detail col-md-6 col-lg-4 mb-5" data-details='{"name" : "Double Room", "price": 19810, "details":"", "images":[]}' id="1">
             <div class="hotel-room text-center">
               <a class="d-block mb-0 thumbnail"><img src="images/White-house-double-room-5-1024x787.jpg" alt="Image" class="img-fluid"></a>
               <div class="hotel-room-body">
@@ -144,7 +146,7 @@
               </div>
             </div>
           </div>
-          <div class="room-detail col-md-6 col-lg-4 mb-5" data-details="" data-name="">
+          <div class="room-detail col-md-6 col-lg-4 mb-5" data-details='{"name" : "Double Room", "price": 23990, "details":""}'>
             <div class="hotel-room text-center">
               <a class="d-block mb-0 thumbnail"><img src="images/White-house-shared-bathroom-Nr.-7-1024x787.jpg" alt="Image" class="img-fluid"></a>
               <div class="hotel-room-body">
@@ -155,7 +157,7 @@
             </div>
           </div>
 
-          <div class="room-detail col-md-6 col-lg-4 mb-5" data-details="" data-name="">
+          <div class="room-detail col-md-6 col-lg-4 mb-5" data-details='{"name" : "Single Room", "price": 16750, "details":"", "images": []}'>
             <div class="hotel-room text-center">
               <a class="d-block mb-0 thumbnail"><img src="images/White-house-single-room-1024x787.jpg" alt="Image" class="img-fluid"></a>
               <div class="hotel-room-body">
@@ -165,7 +167,7 @@
               </div>
             </div>
           </div>
-          <div class="room-detail col-md-6 col-lg-4 mb-5" data-details="" data-name="">
+          <div class="room-detail col-md-6 col-lg-4 mb-5" data-details='{"name" : "Single Room", "price": 19810, "details":""}'>
             <div class="hotel-room text-center">
               <a class="d-block mb-0 thumbnail"><img src="images/White-house-double-room-5-1024x787.jpg" alt="Image" class="img-fluid"></a>
               <div class="hotel-room-body">
@@ -175,7 +177,7 @@
               </div>
             </div>
           </div>
-          <div class="room-detail col-md-6 col-lg-4 mb-5" data-details="" data-name="">
+          <div class="room-detail col-md-6 col-lg-4 mb-5" data-details='{"name" : "Family Room", "price": 34090, "details":""}'>
             <div class="hotel-room text-center">
               <a class="d-block mb-0 thumbnail"><img src="images/White-house-double-room-5-1024x787.jpg" alt="Image" class="img-fluid"></a>
               <div class="hotel-room-body">
@@ -185,7 +187,7 @@
               </div>
             </div>
           </div>
-          <div class="room-detail col-md-6 col-lg-4 mb-5" data-details="" data-name="">
+          <div class="room-detail col-md-6 col-lg-4 mb-5" data-details='{"name" : "Family Room", "price": 40310, "details":""}'>
               <div class="hotel-room text-center">
                 <a class="d-block mb-0 thumbnail"><img src="images/White-house-double-room-5-1024x787.jpg" alt="Image" class="img-fluid"></a>
                 <div class="hotel-room-body">
@@ -195,7 +197,7 @@
                 </div>
               </div>
             </div>
-            <div class="room-detail col-md-6 col-lg-4 mb-5" data-details="" data-name="">
+            <div class="room-detail col-md-6 col-lg-4 mb-5" data-details='{"name" : "Cottage", "price": 24910, "details":""}'>
                 <div class="hotel-room text-center">
                   <a class="d-block mb-0 thumbnail"><img src="images/Cottage-out-side-1024x787.jpg" alt="Image" class="img-fluid"></a>
                   <div class="hotel-room-body">
@@ -205,7 +207,7 @@
                   </div>
                 </div>
               </div>
-              <div class="room-detail col-md-6 col-lg-4 mb-5" data-details="" data-name="">
+              <div class="room-detail col-md-6 col-lg-4 mb-5" data-details='{"name" : "Container", "price": 16750, "details":""}'>
                   <div class="hotel-room text-center">
                     <a class="d-block mb-0 thumbnail"><img src="images/725c1541_z.jpg" alt="Image" class="img-fluid"></a>
                     <div class="hotel-room-body">
@@ -486,7 +488,7 @@
   </div>
 
   <div class="modal fade" id="roomDetailsModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-      <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
         <div class="modal-content">
           <div class="modal-header">
             <h5 class="modal-title" id="modal-room-title"></h5>
@@ -495,12 +497,40 @@
             </button>
           </div>
           <div class="modal-body">
-            <img src="images/Delux-room-nr.-9-1024x426.jpg" alt="" id="modal-room-image" class="modal-room-image">
-            <p id="modal-room-details"></p>
-            <h6 id="modal-room-image"></h6>
+              <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                  <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                  </ol>
+                  <div class="carousel-inner" id="room-det-carusel">
+                  </div>
+                  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>
+            <h4>About the room</h4>
+            <h6 id="modal-room-details"></h6>
+            <h6 id="modal-room-price"></h6>
+
+            <h4>Room facilities</h4>
+            <ul>
+              <li><h5><i class="icomoon icon-connection"></i> Free WiFi </h5></li>
+              <li><h5><i class="ionicons ion-tshirt"></i> Loundry Service </h5></li>
+              <li><h5> Contenental Breakfast </h5></li>
+              <li><h5> Parking </h5></li>
+            </ul>
           </div>
           <div class="modal-footer">
+            <a href="https://property.godo.is/booking.php?propid=21258&type=0&referer=BookingButton"><button type="button" class="btn btn-primary">Book Now</button></a>
             <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <!--<div class="b24bookingbutton"><form  method='GET' action='https://property.godo.is/booking.php' target='_blank' style='display:inline'><input type='submit' value='Book Online'><input type='hidden' name='propid' value='21258'><input type='hidden' name='type' value='0'><input type='hidden' name='referer' value='BookingButton'></form></div> -->
+
           </div>
         </div>
       </div>

@@ -59,8 +59,25 @@ jQuery(document).ready(function($) {
 
 			$('#modal-room-title').text(details.name);
 			$('#modal-room-details').text(details.details);
-			$('#modal-room-price').text(details.price);
-			//$('#modal-room-image').text();
+			$('#modal-room-price').text("Price pre night: " +  details.price + " kr");
+			
+			$('#room-det-carusel').empty();
+
+			for(var i = 0; i < details.images.length; i++){
+				var newStuff = "";
+
+				if(i == 0){
+					newStuff = '<div class="carousel-item active">\n'
+				}
+				else{
+					newStuff = '<div class="carousel-item">\n'
+				}
+
+				newStuff += `<img class="d-block w-100" src="${details.images[i]}" alt="Slide">
+				</div> `;
+
+				$('#room-det-carusel').append(newStuff);
+			}
 
       $('#roomDetailsModal').modal("show");
     });
