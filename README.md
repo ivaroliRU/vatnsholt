@@ -9,9 +9,9 @@ Verkefnið var að bæta síðu sem var í notkun hjá hótelinu Vatnsholt sem n
 - Daníel Aron Davíðsson
 
 ### TODO
-[ ] Síðu fyrir events
-[ ] Síðu fyrir sali (kanski inn í events síðunni)
-[ ] Tjékka á kreditkorta upplýsingum í bókunum
-[ ] Setja upp domain
-[ ] Gera room modal fyir hvert herbergi
-[ ] Setja upp book now takka á herbergja modal-ið
+- [ ] Síðu fyrir events
+- [ ] Síðu fyrir sali (kanski inn í events síðunni)
+- [ ] Tjékka á kreditkorta upplýsingum í bókunum
+- [ ] Setja upp domain
+- [ ] Gera room modal fyir hvert herbergi
+- [ ] Setja upp book now takka á herbergja modal-ið
