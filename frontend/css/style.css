@@ -1451,6 +1451,20 @@ a {
   padding-right: 8px !important;
 }
 
+.cool-btn2{
+  border-color: #666666;
+  border-style: solid;
+  border-width: 1px;
+  background-color: #666666;
+  color: white;
+
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+  padding-top: 15px !important;
+  padding-bottom: 15px !important;
+  font-size: 26px;
+}
+
 .cool-btn:hover{
   background-color: #666666;
 }
