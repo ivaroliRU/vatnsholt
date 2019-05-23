@@ -53,9 +53,18 @@ jQuery(document).ready(function($) {
       
 		});
 		
-		$('.room-detail').click( function(e) {
-      console.log("typpi");
+		$('.room-detail').on('click', function(e) {
+			var details = $(this).data('details');
+			console.log($(this).data('details'));
+			console.log(details);
 			
+
+			$('#modal-room-title').text($(this).data('name'));
+			$('#modal-room-details').text(details.details);
+			$('#modal-room-price').text(details.price);
+			//$('#modal-room-image').text();
+
+      $('#roomDetailsModal').modal("show");
     });
 
 		$(window).resize(function() {

@@ -1483,3 +1483,8 @@ a {
 .room-detail{
   cursor: pointer;
 }
+
+.modal-room-image{
+  width: 100%;
+  height: auto;
+}
