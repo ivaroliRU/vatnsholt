@@ -55,12 +55,13 @@ jQuery(document).ready(function($) {
 		
 		$('.room-detail').on('click', function(e) {			
 			var details = $(this).data('details');
+			console.log(details);
 			
 
 			$('#modal-room-title').text(details.name);
 			$('#modal-room-details').text(details.details);
 			$('#modal-room-price').text("Price pre night: " +  details.price + " kr");
-			
+
 			$('#room-det-carusel').empty();
 
 			for(var i = 0; i < details.images.length; i++){
@@ -68,9 +69,11 @@ jQuery(document).ready(function($) {
 
 				if(i == 0){
 					newStuff = '<div class="carousel-item active">\n'
+					$(".indicators-fo-us-dawg").append(`<li data-target="#carouselExampleIndicators" data-slide-to="${i}" class="active"></li>`);
 				}
 				else{
 					newStuff = '<div class="carousel-item">\n'
+					$(".indicators-fo-us-dawg").append(`<li data-target="#carouselExampleIndicators" data-slide-to="${i}"></li>`);
 				}
 
 				newStuff += `<img class="d-block w-100" src="${details.images[i]}" alt="Slide">

@@ -1488,3 +1488,54 @@ a {
   width: 100%;
   height: auto;
 }
+
+.events-content-image > img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.events-content-image{
+  padding:0px;
+  height: 100%;
+}
+
+.events-section{
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  height: 500px;
+}
+
+#events-topElem{
+  padding-top: 76px !important;
+  height: 576px !important;
+}
+
+.events-overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #f23a2e;
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: .5s ease;
+}
+
+.events-content-image:hover .events-overlay {
+  bottom: 0;
+  height: 100%;
+}
+
+.panta-text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+}
