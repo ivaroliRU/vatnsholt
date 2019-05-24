@@ -9,13 +9,14 @@ Verkefnið var að bæta síðu sem var í notkun hjá hótelinu Vatnsholt sem n
 - Daníel Aron Davíðsson
 
 ### TODO
-- [X] Síðu fyrir events
-- [X] Síðu fyrir sali (kanski inn í events síðunni)
+- [ ] Síðu fyrir events
+- [ ] Síðu fyrir sali (kanski inn í events síðunni)
 - [X] Tjékka á kreditkorta upplýsingum í bókunum
 - [ ] Setja upp domain
-- [X] Gera room modal fyir hvert herbergi
+- [?] Gera room modal fyir hvert herbergi
 - [X] Setja upp book now takka á herbergja modal-ið
 - [X] Setja upp book now takka í headder
 - [ ] Setja upp activities
-- [X] Gefa trip advisor rating
-- [X] laga stærðir á rooms
+- [?] Gefa trip advisor rating
+- [ ] Bæta við Free í car park icon.
+- [ ] Breyta fire exit í free wifi icon.
