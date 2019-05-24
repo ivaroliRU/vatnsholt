@@ -11,10 +11,12 @@ Verkefnið var að bæta síðu sem var í notkun hjá hótelinu Vatnsholt sem n
 ### TODO
 - [ ] Síðu fyrir events
 - [ ] Síðu fyrir sali (kanski inn í events síðunni)
-- [ ] Tjékka á kreditkorta upplýsingum í bókunum
+- [X] Tjékka á kreditkorta upplýsingum í bókunum
 - [ ] Setja upp domain
-- [ ] Gera room modal fyir hvert herbergi
-- [ ] Setja upp book now takka á herbergja modal-ið
-- [ ] Setja upp book now takka í headder
+- [?] Gera room modal fyir hvert herbergi
+- [X] Setja upp book now takka á herbergja modal-ið
+- [X] Setja upp book now takka í headder
 - [ ] Setja upp activities
-- [ ] Gefa trip advisor rating
+- [?] Gefa trip advisor rating
+- [ ] Bæta við Free í car park icon.
+- [ ] Breyta fire exit í free wifi icon.
