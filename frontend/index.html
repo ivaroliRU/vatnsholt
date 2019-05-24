@@ -259,7 +259,7 @@
               </a>
               <div class="hotel-room-body">
                 <h3 class="heading mb-0">
-                  <a href="#">Three Bedroom Apartment</a>
+                  <a href="#">Studio Apartment</a>
                 </h3>
                 <strong class="price">With private bathroom</strong>
                 <br>
@@ -367,24 +367,26 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-md-4 activity">
+        <div class="col-md-4 activity bg-light">
           <img src="images/activity2.jpg" alt="">
           <p>Vatnsholt is surrounded by the beautiful Icelandic nature, which you can easly explore. We the owners at Vatnsholt
             have a reputation for being nature- and animal lovers. For years we have nurtured a small herd of domesticated
             animals, kindly dubbed by our guests as the Lilliputian Zoo.</p>
           <a href="">See more</a>
         </div>
-        <div class="col-md-4 activity">
+        <div class="col-md-4 activity bg-light">
           <img src="images/Northern-lights-5.jpg" alt="">
           <p>In Vatnsholt we pride our selves in laying special emphasis on Icelandic cultural characteristics, closeness to
             the countryside, nature and wild life, let alone our personal albeit informal and warm touch. The management
             and staff are looking forward to welcoming you to Vatnsholt.</p>
+          <a href="">See more</a>
         </div>
-        <div class="col-md-4 activity">
+        <div class="col-md-4 activity bg-light">
           <img src="images/activity1.jpg" alt="">
           <p>In Vatnsholt we pride our selves in laying special emphasis on Icelandic cultural characteristics, closeness to
             the countryside, nature and wild life, let alone our personal albeit informal and warm touch. The management
             and staff are looking forward to welcoming you to Vatnsholt.</p>
+          <a href="">See more</a>
         </div>
       </div>
     </div>
@@ -487,31 +489,30 @@
       <h1 class="mb-4">Get In Touch</h1>
       <div class="row">
         <div class="col-md-12 col-lg-8 mb-5">
-          <form action="#" class="p-5 bg-white">
-
+          <form method="POST" action="/send_msg" class="p-5 bg-white" onsubmit="return false">
             <div class="row form-group">
               <div class="col-md-12 mb-3 mb-md-0">
                 <label class="font-weight-bold" for="fullname">Full Name</label>
-                <input type="text" id="fullname" class="form-control" placeholder="Full Name">
+                <input type="text" name="fullname" id="fullname" class="form-control" placeholder="Full Name">
               </div>
             </div>
             <div class="row form-group">
               <div class="col-md-12">
                 <label class="font-weight-bold" for="email">Email</label>
-                <input type="email" id="email" class="form-control" placeholder="Email Address">
+                <input type="email" name="email" id="email" class="form-control" placeholder="Email Address" required>
               </div>
             </div>
             <div class="row form-group">
               <div class="col-md-12 mb-3 mb-md-0">
                 <label class="font-weight-bold" for="phone">Phone</label>
-                <input type="text" id="phone" class="form-control" placeholder="Phone #">
+                <input type="text" name="phone" id="phone" class="form-control" placeholder="Phone #">
               </div>
             </div>
 
             <div class="row form-group">
               <div class="col-md-12">
                 <label class="font-weight-bold" for="message">Message</label>
-                <textarea name="message" id="message" cols="30" rows="5" class="form-control" placeholder="Say hello to us"></textarea>
+                <textarea name="message" id="message" cols="30" rows="5" class="form-control" placeholder="Say hello to us" required></textarea>
               </div>
             </div>
 
@@ -520,8 +521,6 @@
                 <input type="submit" value="Send Message" class="btn btn-primary pill px-4 py-2">
               </div>
             </div>
-
-
           </form>
         </div>
 
@@ -633,6 +632,44 @@
       </div>
     </div>
   </div>
+
+  <div id="message-sent-msg" class="modal" tabindex="-1" role="dialog">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Message Sent</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>Your message has been sent, we will answer as soon as possible.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="message-error-msg" class="modal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Could Not Send</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <p>Could not send your message, pleas try again later</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
 
   <script src="js/jquery-3.3.1.min.js"></script>
   <script src="js/jquery-migrate-3.0.1.min.js"></script>
