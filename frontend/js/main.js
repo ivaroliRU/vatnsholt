@@ -60,9 +60,10 @@ jQuery(document).ready(function ($) {
 
 			$('#modal-room-title').text(details.name);
 			$('#modal-room-details').text(details.details);
-			$('#modal-room-price').text("Price pre night: " + details.price + " kr");
+			$('#modal-room-price').text("Price per night: " + details.price + " kr");
 
 			$('#room-det-carusel').empty();
+			$('#room-indicators').empty();
 
 			for (var i = 0; i < details.images.length; i++) {
 				var newStuff = "";

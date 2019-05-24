@@ -1588,7 +1588,7 @@ a {
 }
 
 .activity{
-  min-height: 720px !important;
+  min-height: 680px !important;
   background-color: white;
 }
 
@@ -1653,6 +1653,7 @@ a {
 .resturant > img{
   width: 100%;
   height: 350px;
+  object-fit: cover;
 }
 
 .resturant > h3{
@@ -1662,19 +1663,34 @@ a {
 
 .resturant > p{
   padding: 15px;
+  padding-bottom: 30px;
 }
 
 .resturant{
   background-color: white;
-  height: 750px;
+  min-height: 700px;
 }
 
 .see-more{
   position: absolute;
-  bottom: 0px;
+  bottom: 8px !important;
   text-align: left;
   padding-left: 8px;
   padding-bottom: 8px;
+}
+
+.fa{
+  color: #555 !important;
+}
+
+.modal-heading{
+  font-family: "Playfair Display";
+}
+
+.carousel-item>img{
+  width: 766px !important;
+  height: 588px;
+  object-fit: cover;
 }
 
 @media only screen and (max-width: 600px) {
@@ -1684,6 +1700,16 @@ a {
 
   .resturant{
     margin-bottom: 15px;
+  }
+
+  .certificates{
+    width: 170px;
+    margin: 0 auto;
+  }
+
+  .cert2{
+    width: 240px;
+    margin: 0 auto;
   }
 }
 
