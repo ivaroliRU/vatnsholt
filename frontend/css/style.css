@@ -1589,6 +1589,7 @@ a {
 
 .activity{
   height: 650;
+  background-color: white;
 }
 
 .activity > p{
@@ -1646,6 +1647,11 @@ a {
 
 .tubeyou{
   width: 100%;
+}
+
+.section-subheading{
+  font-family: "Playfair Display";
+  text-align: center;
 }
 
 @media only screen and (max-width: 600px) {
