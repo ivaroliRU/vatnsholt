@@ -1643,3 +1643,16 @@ a {
     height: 100%;
     border: 0;
 }
+
+.tubeyou{
+  width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  .activity{
+    margin-bottom: 15px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+}
