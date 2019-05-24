@@ -1610,3 +1610,9 @@ a {
 .page-footer{
   background-color: grey;
 }
+
+.img-fluid{
+  width: 330px;
+  height: 253.615px;
+  object-fit: cover;
+}
