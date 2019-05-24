@@ -1592,3 +1592,21 @@ a {
   height: 350px;
   object-fit: cover;
 }
+
+.social-button{
+  font-size: 50px;
+  color: white !important;
+}
+
+.social-button:hover{
+  color: lightgrey !important;
+}
+
+.social-buttons>li{
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.page-footer{
+  background-color: grey;
+}
