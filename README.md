@@ -13,10 +13,16 @@ Verkefnið var að bæta síðu sem var í notkun hjá hótelinu Vatnsholt sem n
 - [X] Síðu fyrir sali (kanski inn í events síðunni)
 - [X] Tjékka á kreditkorta upplýsingum í bókunum
 - [ ] Setja upp domain
-- [?] Gera room modal fyir hvert herbergi
+- [X] Gera room modal fyir hvert herbergi
 - [X] Setja upp book now takka á herbergja modal-ið
 - [X] Setja upp book now takka í headder
 - [ ] Setja upp activities
-- [?] Gefa trip advisor rating
-- [ ] Bæta við Free í car park icon.
+- [X] Gefa trip advisor rating
+- [X] Bæta við Free í car park icon.
 - [ ] Breyta fire exit í free wifi icon.
+- [ ] Stýla book now takkan niðri, gera hann fallegann.
+- [X] Gera virkni á contact us formið.
+- [ ] Laga texta á about us.
+- [ ] Laga myndband í about us fyrir síma.
+- [ ] Skoða hvort það sé hægt að minka trip advisor certificates.
+
