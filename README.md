@@ -25,4 +25,10 @@ Verkefnið var að bæta síðu sem var í notkun hjá hótelinu Vatnsholt sem n
 - [ ] Laga texta á about us.
 - [X] Laga myndband í about us fyrir síma.
 - [X] Skoða hvort það sé hægt að minka trip advisor certificates.
+<<<<<<< HEAD
+=======
+- [X] Bæta við blind-raven i events
+- [X] Fermingar í events einnig
+- [ ] Fleiri myndir af fólki skála í kampavíni
+>>>>>>> 69f6942483c4191c53cab72f561052b27ab5db8b
 
