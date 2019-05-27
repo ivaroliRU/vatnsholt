@@ -1788,6 +1788,8 @@ a {
   #villibord-headder{
     font-size: 18px;
   }
+  .activity{
+    min-height: 695px !important;}
 }
 
 @media only screen and (max-width: 800px) {
