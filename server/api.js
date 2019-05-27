@@ -70,7 +70,7 @@ app.post("/send_msg", (req, res) => {
         service: 'gmail',
         auth: {
             user: 'vatnsholt.messages@gmail.com',
-            pass: '37QSKtajY^E3j$\'e67L\\T>j'
+            pass: process.env.VATN_EMAIL_PASS
         }
     });
 
