@@ -1469,12 +1469,16 @@ a {
 }
 
 .cool-btn{
-  border-color: #666666;
+  border-color: rgba(255, 255, 255, 0.6);
   border-style: solid;
   border-width: 2px;
 
   padding-left: 8px !important;
   padding-right: 8px !important;
+}
+
+.scrolled>.site-navbar>.collapse>ul>.nav-item>.cool-btn{
+  border-color: #666666;
 }
 
 .cool-btn2{
@@ -1720,6 +1724,24 @@ a {
 }
 
 @media only screen and (max-width: 600px) {
+  .nav-item>a{
+    color: black !important;
+  }
+
+  .nav-item.active>a{
+    color: black !important;
+  }
+
+  .cool-btn{
+    padding-left: 0px !important;
+    border-width: 0px !important;
+  }
+
+  .site-navbar-wrap{
+    background-color: #fff !important;
+    padding: 0px !important;
+  }
+
   .activity{
     margin-bottom: 15px;
   }
