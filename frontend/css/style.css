@@ -1717,6 +1717,15 @@ a {
   font-family: "Playfair Display";
 }
 
+.widCOEImg{
+  width: 127px !important;
+  height: auto;
+}
+
+.TA_certificateOfExcellence318{
+  width: 140px !important;
+}
+
 .carousel-item>img{
   width: 766px !important;
   height: 588px;

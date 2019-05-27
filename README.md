@@ -23,6 +23,6 @@ Verkefnið var að bæta síðu sem var í notkun hjá hótelinu Vatnsholt sem n
 - [X] Stýla book now takkan niðri, gera hann fallegann.
 - [X] Gera virkni á contact us formið.
 - [ ] Laga texta á about us.
-- [ ] Laga myndband í about us fyrir síma.
-- [ ] Skoða hvort það sé hægt að minka trip advisor certificates.
+- [X] Laga myndband í about us fyrir síma.
+- [X] Skoða hvort það sé hægt að minka trip advisor certificates.
 
