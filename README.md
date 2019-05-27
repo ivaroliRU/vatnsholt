@@ -16,11 +16,11 @@ Verkefnið var að bæta síðu sem var í notkun hjá hótelinu Vatnsholt sem n
 - [X] Gera room modal fyir hvert herbergi
 - [X] Setja upp book now takka á herbergja modal-ið
 - [X] Setja upp book now takka í headder
-- [ ] Setja upp activities
+- [X] Setja upp activities
 - [X] Gefa trip advisor rating
 - [X] Bæta við Free í car park icon.
-- [ ] Breyta fire exit í free wifi icon.
-- [ ] Stýla book now takkan niðri, gera hann fallegann.
+- [X] Breyta fire exit í free wifi icon.
+- [X] Stýla book now takkan niðri, gera hann fallegann.
 - [X] Gera virkni á contact us formið.
 - [ ] Laga texta á about us.
 - [ ] Laga myndband í about us fyrir síma.
