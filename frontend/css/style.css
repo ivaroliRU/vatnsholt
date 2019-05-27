@@ -1726,7 +1726,7 @@ a {
   width: 140px !important;
 }
 
-.carousel-item>img{
+.front-page-item>img{
   width: 766px !important;
   height: 588px;
   object-fit: cover;

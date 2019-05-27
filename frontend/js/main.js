@@ -69,11 +69,11 @@ jQuery(document).ready(function ($) {
 				var newStuff = "";
 
 				if (i == 0) {
-					newStuff = '<div class="carousel-item active">\n'
+					newStuff = '<div class="carousel-item front-page-item active">\n'
 					$(".indicators-fo-us-dawg").append(`<li data-target="#carouselExampleIndicators" data-slide-to="${i}" class="active"></li>`);
 				}
 				else {
-					newStuff = '<div class="carousel-item">\n'
+					newStuff = '<div class="carousel-item front-page-item">\n'
 					$(".indicators-fo-us-dawg").append(`<li data-target="#carouselExampleIndicators" data-slide-to="${i}"></li>`);
 				}
 
